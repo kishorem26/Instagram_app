@@ -1,0 +1,29 @@
+/* fix sidebar blocking modals */
+.w-20 {
+  z-index: 1;
+  position: relative;
+}
+
+.w-50 {
+  z-index: 1;
+  position: relative;
+}
+
+.logo-text{
+  width: 
+  100px;
+}
+
+.bi {
+  margin-right:10px;
+}
+
+.story{
+  height: 60px;
+}
+
+.bg-blue{
+  background-color:darkgray;
+  height: 700px;
+}
+

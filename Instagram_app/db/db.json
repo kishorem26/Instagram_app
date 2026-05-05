@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/images/profile1.jpg"
+      },
+      "image": "/images/post1.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        { "id": 1, "user": "vikram_23", "comment": "Wow! Amazing shot 📸" },
+        { "id": 2, "user": "mugilan_mass", "comment": "Where is this place?" }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "emma_smith",
+        "profile_pic": "/images/profile2.jpg"
+      },
+      "image": "/images/post2.jpg",
+      "caption": "Coffee vibes ☕ #Chill",
+      "likes": 85,
+      "comments": [
+        { "id": 1, "user": "john_doe", "comment": "Looks so relaxing!" }
+      ],
+      "timestamp": "2025-02-12T10:15:00Z"
+    }
+  ],
+  "stories": [
+    { "id": 1, "username": "john_doe", "profile_pic": "/images/profile1.jpg", "story_image": "/images/story1.jpg" },
+    { "id": 2, "username": "emma_smith", "profile_pic": "/images/profile2.jpg", "story_image": "/images/story2.jpg" }
+  ],
+  "users": [
+    { "id": 101, "username": "john_doe", "name": "John Doe", "bio": "Traveler 🌍", "profile_pic": "/images/profile1.jpg" },
+    { "id": 102, "username": "emma_smith", "name": "Emma Smith", "bio": "Coffee lover ☕", "profile_pic": "/images/profile2.jpg" }
+  ]
+}

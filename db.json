@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "sethupathi_01",
+        "profile_pic": "/images/profile1.jpg"
+      },
+      "image": "/images/post1.jpg",
+      "caption": "Beautiful Nature",
+      "likes": 120,
+      "comments": [
+        { "id": 1, "user": "alice_wonder", "comment": "Wow! Amazing shot 📸" },
+        { "id": 2, "user": "mark_92", "comment": "Where is this place?" }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sanjay_123",
+        "profile_pic": "/images/profile2.jpg"
+      },
+      "image": "/images/post2.jpg",
+      "caption": "Beautifull Sunset🌅",
+      "likes": 85,
+      "comments": [
+        { "id": 1, "user": "sethupathi_01", "comment": "Looks so relaxing!" }
+      ],
+      "timestamp": "2025-02-12T10:15:00Z"
+    }
+  ],
+  "stories": [
+    { "id": 1, "username": "sethupathi_01", "profile_pic": "/images/profile1.jpg", "story_image": "/images/story1.jpg" },
+    { "id": 2, "username": "sanjay_123", "profile_pic": "/images/profile2.jpg", "story_image": "/images/story2.jpg" }
+  ],
+  "users": [
+    { "id": 101, "username": "sethupathi_01", "name": "sethupathi_01", "bio": "Traveler 🌍", "profile_pic": "/images/profile1.jpg" },
+    { "id": 102, "username": "sanjay_123", "name": "sanjay_123", "bio": "Coffee lover ☕", "profile_pic": "/images/profile2.jpg" }
+  ]
+}
